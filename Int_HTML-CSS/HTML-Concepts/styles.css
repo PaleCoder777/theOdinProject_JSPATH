@@ -3,3 +3,11 @@ body {
     color: white;
     text-align: center;
 }
+
+a {
+    color:white;
+}
+
+ul {
+    text-align: left;
+}
