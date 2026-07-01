@@ -1,9 +1,38 @@
+/* Importing Fonts */
+@font-face {
+  font-family: "Aleo";
+  src:
+    url("webFonts/Aleo-Regular.woff2") format("woff2"),
+    url("webFonts/Aleo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src:
+    url("webFonts/Roboto-Regular.woff2") format("woff2"),
+    url("webFonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.mystery-quest-regular {
+  font-family: "Mystery Quest", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 /* General setup */
 
 html {
   font-size: 10px;
   margin: 0;
-  font-family: sans-serif;
+
+  font-family: "Mystery Quest" "Roboto", "Aleo", sans-serif;
 }
 
 body {
