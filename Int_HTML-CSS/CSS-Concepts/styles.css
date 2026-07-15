@@ -10,6 +10,72 @@ ul, li, a {
     color: white;
 }
 
+/* Testing some CSS Properties
+ul {
+  border: 1px white solid;
+  border-radius: 50%
+}
+*/
+
+/* Advanced Selectors Testing */
+/*main > div {
+  border: solid 1px red;
+}
+
+main > div > div {
+  border: dashed 2px yellow;
+}
+*/
+
+/*
+main > .group1 {
+  border: solid 1px red;
+}
+
+.group1 + div {
+  border: solid 1px lightgreen;
+}
+
+.group1 + div + div {
+  border: solid 1px yellow;
+}
+*/
+
+a:hover {
+  font-size: 1.1rem;
+}
+
+a:link {
+  color: yellow;
+}
+
+a:visited {
+  color: red;
+}
+
+.group1 ~ div {
+  border: solid 1px red;
+}
+
+/* Attribute Selector */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  color: #0087cc;
+  padding-left: 22px;
+  text-decoration: none;
+}
+
+a[href$=".pdf"] {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/pdf.png")
+}
+
 /* Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
 
