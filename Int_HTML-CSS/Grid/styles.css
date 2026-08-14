@@ -1,5 +1,23 @@
 body {
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: center
 }
+
+li {
+    text-align: left;
+}
+
+a {
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    font-size: 2rem;
+}
+
+a:visited {
+    color: red;
+}
+
