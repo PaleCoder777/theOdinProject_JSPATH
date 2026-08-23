@@ -1,6 +1,17 @@
+/* Universal Styling */
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: black;
     color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+h3 {
     text-align: center
 }
 
@@ -20,4 +31,89 @@ a:hover {
 a:visited {
     color: red;
 }
+
+/* ------ Sandbox ------ */
+
+.gridBox1 {
+    display: grid;
+    grid-template: 50px 50px / 50px 50px 50px;
+    grid-auto-rows: 50px;
+    grid-auto-columns: 50px;
+    grid-template: repeat(2, minmax(100px, 1fr)) / repeat(3, minmax(50px, 1fr));
+    gap: 50px 10px
+}
+
+.gridBox1-child {
+    border: 1px solid white;
+}
+
+
+/* practiceGrid.html  */
+
+    /* CSS Tricks - Getting started w/ Grid */
+    /* .wrapper {
+        display: grid;
+        width: 100%;
+        height: 100%;
+
+        grid-template-columns: 3fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr;
+        gap: 5px 5px;
+        background-color: darkred;
+    }
+
+    .letter{
+        background-color: #0069b3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        font-size: 70px;
+        color: white;
+        line-height: 1;
+        font-family: 'hobeaux-rococeaux-background', Helvetica;
+        font-weight: 200;
+        cursor: pointer;
+        transition: all .3s ease;
+    } */
+
+    /* Chrome DevTools - Inpsecting Grid Layout */
+    .fruit-Box-title {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .fruit-Box {
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 
+            [left] 1fr
+            [middle1] 1fr
+            [middle2] 1fr
+            [right];
+    }
+
+    .fruit {
+        font-size: 3rem;
+    }
+
+    .apple {
+        background-color: darkred;
+    }
+
+    .kiwi {
+        background-color: darkgreen;
+    }
+
+    .mango {
+        background-color: orangered;
+    }
+
+    .orange {
+        background-color: darkorange;
+        grid-column: left / right;
+    }
 
