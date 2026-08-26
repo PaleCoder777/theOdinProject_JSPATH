@@ -170,7 +170,7 @@ a:visited {
         grid-row: 5 / 6;
     } */
     
-    /* MDN - Grid Layout using line-based placement */
+    /* MDN - Grid Layout using line-based placement
     .wrapper {
         width: 90%;
         height: 90%;
@@ -208,4 +208,37 @@ a:visited {
         grid-column-start: 1;
         grid-row-start: span 3;
         grid-row-end: 4;
+    } */
+
+    /* TOP - Advanced Grid Properties Lesson */
+    .grid-container {
+        height: 80%;
+        width: 80%;
+        resize: both;
+        overflow: auto;
+        margin: auto;
+        display: grid;
+        gap: 4px;
+        padding: 4px;
+        border: 1px solid gray;
+        background-color: skyblue;
+        grid-template-rows: repeat(2, min(200px, 50%));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .grid-item {
+        background-color: #444;
+        text-align: center;
+        color: #ddd;
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        padding: 12px;
+    }
+
+    p {
+        margin: 12px auto 24px;
+    }
+
+    img {
+        height: 60px;
     }
