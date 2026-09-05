@@ -41,27 +41,27 @@
 
 - ### JavaScript
     - [] Organizing your JavaScript Code
-        - [] Organizing Code with Objects
-        - [] Object Constructors
-        - [] **Project: Library**
-        - [] Factory Functions and the Module Pattern
-        - [] **Project: Tic Tac Toe**
-        - [] Classes
-        - [] ES6 Modules
-        - [] npm
-        - [] Webpack
-        - [] **Project: Restaurant Page**
-        - [] Revisiting Webpack
-        - [] JSON
-        - [] OOP Principles 
-        - [] **Project: To do List**
+        - [ ] Organizing Code with Objects
+        - [ ] Object Constructors
+        - [ ] **Project: Library**
+        - [ ] Factory Functions and the Module Pattern
+        - [ ] **Project: Tic Tac Toe**
+        - [ ] Classes
+        - [ ] ES6 Modules
+        - [ ] npm
+        - [ ] Webpack
+        - [ ] **Project: Restaurant Page**
+        - [ ] Revisiting Webpack
+        - [ ] JSON
+        - [ ] OOP Principles 
+        - [ ] **Project: To do List**
 
-    - [] JavaScript in the Real World
-    - [] Asynchronous JavaScript and APIs
-    - [] Testing JavaScript
-    - [] A Bit of Computer Science
-    - [] Intermediate Git
-    - [] Finishing up with JavaScript
+    - [ ] JavaScript in the Real World
+    - [ ] Asynchronous JavaScript and APIs
+    - [ ] Testing JavaScript
+    - [ ] A Bit of Computer Science
+    - [ ] Intermediate Git
+    - [ ] Finishing up with JavaScript
     - 
 
 - ### Advanced HTML and CSS
